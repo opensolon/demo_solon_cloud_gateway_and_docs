@@ -1,7 +1,7 @@
 
 # 示例2
 
-###  模块服务（有 server.contextPath）
+###  模块服务（有 server.contextPath，或能路径里能识别 service）
 
 * 运行 src/min/...App
 * 文档地址：http://localhost:8080/doc.html
