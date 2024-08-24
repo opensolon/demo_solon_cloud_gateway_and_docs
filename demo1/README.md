@@ -1,5 +1,15 @@
 
-# 示例1
+* 示例1
+
+功能模块，无 server.contextPath （不方便 service 识别）
+
+* 示例2
+
+功能模块，有 server.contextPath （已经方便 service 识别）
+
+---
+
+# 示例1（本示例）
 
 ###  模块服务（没有 server.contextPath）
 
