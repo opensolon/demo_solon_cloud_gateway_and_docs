@@ -25,5 +25,5 @@
 * 运行 src/test/labs/...GatewayApp
 * 文档地址：http://localhost:8090/doc.html
   * 打开接口 demo/hello ，可调试
-* 测试接口地址：http://localhost:8090/hello?name=ddd
+* 测试接口地址：http://localhost:8090/demo-app/hello?name=ddd
 

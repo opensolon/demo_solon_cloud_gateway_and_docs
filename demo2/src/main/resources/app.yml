@@ -15,10 +15,6 @@ solon:
         apis:
           - basePackage: "com.example.demo"
 
-# 排除网关启动
-solon.plugin.exclude:
-  - "org.noear.solon.cloud.gateway.integration.XPluginImpl"
-
 knife4j.enable: true
 knife4j.basic.enable: false
 knife4j.basic.username: admin
