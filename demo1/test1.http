@@ -1,0 +1,7 @@
+
+### 发送模块服务请求
+GET http://localhost:8080/hello?name=ddd
+
+
+### 发送网关服务请求
+GET http://localhost:8090/demo-app/hello?name=ddd
