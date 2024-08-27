@@ -22,9 +22,9 @@ solon:
         - id: demo-app
           target: "http://localhost:8080"
           predicates:
-            - "Path=/demo-app/**"
+            - "Path=/demo-app/**" #请求时：要加这个前缀，用于识别
           filters:
-            - "StripPrefix=1" #功能模块是没有 /demo-app/ 的，所以要去掉第1段路径
+            - "StripPrefix=1" #转发时：要去掉 /demo-app/（第1段）。因为功能服务没有这个前缀
 
 knife4j.enable: true
 knife4j.basic.enable: false
